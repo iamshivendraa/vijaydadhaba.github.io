@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bacasime Antique', serif;
+}
+.logo{
+
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+.logo a{
+    font-size: 30px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+.navBar{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    color: White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgb(4, 79, 177);   
+}
+.navBarContents{
+    display: flex;
+    position: relative;
+    right: 116px;
+    flex: 2;
+
+    justify-content: center;
+
+}
+
+.navBar div{
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+a:hover{
+    color:  rgb(6, 103, 229);
+    
+    /* transition: 0.3s; */
+}
+.navBar #title{
+    /* color: rgba(38, 228, 246, 0.819); */
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Finger Paint', cursive;
+    position: relative;
+    top: 5px;
+    left :30px;
+    
+}
+.menuBackground{
+    height: 80vh;
+    background: url(seaFood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    opacity: 0.7;
+    
+}
+.heading{
+    /* opacity:0.5; */
+    /* background-color: rgb(4, 57, 126); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 350px;
+    color:  rgb(4, 57, 126);
+    background-color: white;
+
+    /* color: rgb(0, 255, 170); */
+}
+.login_signup{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+#SignUP{
+    background-color: rgb(4, 79, 177);
+    height: 35px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.starter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bacasime Antique', serif;
+    color: rgb(4, 57, 126);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.starterItems{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+/* #leftItems{
+}
+#rightItems{
+} */
+.starterItems p{
+    font-size: 25px;
+}
+#description{
+    font-size: 18px;
+    color: rgba(4, 57, 126, 0.641);
+    margin-top: 10px;
+}
+.img2{
+    height: 80vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    margin-top: 80px;
+}
+.img3{
+    height: 80vh;
+    background-image: url(desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    margin-top: 80px;
+}
+footer{
+    /* height: 500px; */
+    background-color: rgb(0, 30, 30);
+    margin-top: 80px;
+    font-family: 'Bacasime Antique', serif;
+}
+.newsLetter{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 109, 109, 0.434);
+}
+.newsLetter p{
+    font-size: 18px;
+}
+#search{
+    width: 400px;
+    height: 30px;
+    border: 1px solid white;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+    color:white;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 20px;
+
+}
+.checkBox span{
+    font-size: 18px;
+}
+.footerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    color: white;
+}
+.yellowUnderline{
+    background-color: rgb(255, 162, 0);
+    width: 50px;
+    height: 2px;
+    margin-top: 4px;
+}
+.fa-envelope{
+    font-size: 30px;
+}
+.fa-phone{
+    font-size: 30px;
+}
+.a{
+    font-size: 18px;
+}
+.a a{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.socialMediaLinks{
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.followUS{
+    position: relative;
+    right: 105px;
+}
+.icons i{
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+.playStore{
+    display: flex;
+    /* justify-content:flex-start; */
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+    right: 20px;
+}
+#play{
+    height: 50px;
+    cursor: pointer;
+
+}
+#apple{
+    height: 80px;
+    border: 1 px rgb(0, 30, 30);
+    cursor: pointer;
+}
+.ourPresence{
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 109, 109, 0.353);
+}
+.ourPresence h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.yellowUnderline1{
+    background-color: rgb(255, 162, 0);
+    width: 150px;
+    height: 3px;
+    position: relative;
+}
+.loveMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+
+/* About Us Code */
+.aboutUS{
+    height: 80vh;
+    background-image: url(drink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    background-color: rgba(0, 37, 222, 0.451);
+    width: 100%;
+    height: 120px;
+    
+}
+.aboutUS p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+    
+}
+.aboutUS h1{
+    font-size: 40px;
+}
+.blueUnderline1{
+    background-color:rgb(255, 183, 0);
+    width: 150px;
+    height: 3px;
+    position: relative;
+}
+.details{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.545);
+}
+.details p{
+    margin-top: 5px;
+}
+.details span{
+    color: black;
+}
+.journey{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.journey h1{
+    font-size: 40px;
+}
+.journeyDetails{
+    /* background-color: black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+#left{
+    height: 300px;
+    flex: 1;
+    border: 2px dashed grey;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+}
+#right{
+    height: 300px;
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    height: 200px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row ;
+    border: 1px solid grey;
+}
+#leftContent{
+    flex: 3;
+    height: 200px;
+    border: 1px dashed grey;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#leftContent h1{
+    margin-top: 30px;
+    font-size: 35px;
+
+}
+#leftContent p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.626);
+
+    margin-top: 5px;
+}
+#rightContent{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rightContent img{
+    height: 130px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(4, 79, 177);
+    border: transparent;
+    height: 38px;
+    width: 90px;
+    color: White;
+    font-size:20px ;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    bottom: 2px;
+    left: 216px;
+}
+.buttonAfter{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(4, 79, 177);
+    transform: rotateZ(50deg);
+    position: relative;
+    left: 291px;
+    bottom: 30px
+}
+.founders{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 60px;
+
+}
+.founders p{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.607);
+}
+.founder1{
+    width: 25%;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 30px;
+
+    box-shadow:0 5px 5px rgba(38, 38, 38, 0.295);
+}
+
+.founder2{
+    width: 25%;
+    background-color: transparent;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 30px;
+
+
+    box-shadow:0 5px 5px rgba(38, 38, 38, 0.295);
+}
+.founder3{
+    width: 25%;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 30px;
+
+    box-shadow:0 5px 5px rgba(38, 38, 38, 0.295);
+}
+
+.container_ContactUs{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs{
+    height:80vh;
+    width: 1000px;
+    /* background-color: black; */
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.471);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.reachUs{
+    background-color: rgba(128, 128, 128, 0.237);
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs_Content{
+    background-color: red;
+
+}
+.details{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 30px;
+}
+#a{
+    width: 450px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#a p{
+    margin-top: 20px;
+}
+#a span{
+    margin-left: 10px;
+}
+#grievances{
+    position: relative;
+    left:35px;
+
+}
+#b{
+    width: 450px;
+    height: 300px;
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input1{
+    margin: 20px;
+    width: 266px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom:1px solid rgba(0, 0, 0, 0.322);
+    font-size: 17px;
+    font-family: 'Bacasime Antique', serif;
+
+}
+#comment{
+    width: 94%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid rgba(0, 0, 0, 0.322);
+     font-size: 17px;
+    font-family: 'Bacasime Antique', serif;
+
+}
+#submit{
+    margin-top: 30px;
+    width: 95%;
+    margin-right: 432px;
+    font-family: 'Bacasime Antique', serif;
+
+}
+
